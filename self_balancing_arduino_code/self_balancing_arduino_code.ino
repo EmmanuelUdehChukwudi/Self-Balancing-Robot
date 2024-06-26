@@ -32,9 +32,9 @@ double proportional_term = 0;
 double previous_error = 0;
 double output;
 
-float Kp = 45;
-float Ki = 0;
-float Kd = 0;
+float Kp = 200;
+float Ki = 15;
+float Kd = 0.5;
 
 double sample_time = 10; // Sample time in milliseconds
 unsigned long last_time = 0;
